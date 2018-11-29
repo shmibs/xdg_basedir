@@ -20,7 +20,7 @@
 # For more details, please refer to the specification, which is available
 # online [here](https://specifications.freedesktop.org/basedir-spec/0.7/).
 module XDGBasedir
-  VERSION = "1.0.0"
+  VERSION = "1.0.1"
 
   # get the base directory into which files of a given *type* should be written
   #

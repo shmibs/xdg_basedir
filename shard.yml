@@ -1,8 +1,8 @@
 name: xdg_basedir
-version: 1.0.0
+version: 1.0.1
 
 authors:
-  - katherine <shmibs@shmibbles.me>
+  - katherine <shmibs@airen_no_jikken.icu>
 
 crystal: 0.27.0
 
