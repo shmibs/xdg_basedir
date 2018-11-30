@@ -1,3 +1,4 @@
+
 xdg_basedir
 ===========
 
@@ -36,9 +37,9 @@ usage
 
 Suppose you're writing a program called `program_name`, and you want to read
 one of its configuration files, `file_name.conf`. After reading, you want to
-first perform some operation on the contents of the file and then write the new
-contents back to `file_name.conf`. Using this module, that might look something
-like the following:
+perform some operation on the contents of the file, and then you want to write
+the new contents back to `file_name.conf`. Using this module, that might look
+something like the following:
 
 ```crystal
 require "xdg_basedir"
@@ -47,8 +48,9 @@ require "xdg_basedir"
 # calls to File.read and File.write
 
 # files within the XDG Base Directories will typically be further sorted into
-# subdirectories, with those directories named for the program or application
-# which `owns` them. This is not always the case however, and so isn't enforced
+# subdirectories, with those subdirectories named for the program or
+# application which "owns" them. This is not always the case however, and so it
+# isn't enforced
 read_path = XDGBasedir.full_path("program_name/file_name.conf", :config, :read)
 
 # the specification dictates that the locations of base directories should be
