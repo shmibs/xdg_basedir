@@ -1,9 +1,9 @@
 name: xdg_basedir
-version: 1.0.2
+version: 1.0.3
 
 authors:
-  - katherine <shmibs@airen_no_jikken.icu>
+  - katherine <ageha@airen_no_jikken.icu>
 
-crystal: 0.27.0
+crystal: '>= 0.27.0'
 
 license: MIT
